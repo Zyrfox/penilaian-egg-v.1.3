@@ -1,6 +1,5 @@
-import { redirect } from 'next/navigation';
-
+// Root redirect handled via next.config.ts redirects
+// This file intentionally left minimal to avoid prerender issues
 export default function HomePage() {
-  // Directly point the root path to /penilaian
-  redirect('/penilaian');
+  return null;
 }
